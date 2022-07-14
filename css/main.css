@@ -60,7 +60,12 @@ body{
 	width: 710px;
 	height: 696px;
 }
-
+.main-section-text h1{
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 75px;
+	color: #000000
+}
 .main-section-text p{
 	padding: 24px 0 34px 0;
 	font-weight: 400;
@@ -93,13 +98,8 @@ body{
 	background-size: contain;
 	background-position: center;
 }
-.main-section-text h1{
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 75px;
-	color: #000000
-}
 .bg-img{
+	z-index: 2;
 	margin: 20px;
 	background-image: url("../images/section-bg-blok.jpg");
 	background-size: contain;
@@ -172,6 +172,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: left;
+}
+.section-blok-box img{
+	width: 450px;
+	height: 375px;
 }
 .section-blok-text h3{
 	text-transform: uppercase;
