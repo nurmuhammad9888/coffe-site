@@ -20,14 +20,13 @@
 				<nav class="site-nav">
 					<ul class="sitenav-list">
 						<li class="sitenav-item">
-							<a href="#">HOME</a>
-
+							<a href="index.html">HOME</a>
 						</li>
 						<li class="sitenav-item">
-							<a href="#">ABOUT US</a>
+							<a href="about.html">ABOUT US</a>
 						</li>
 						<li class="sitenav-item">
-							<a href="#">Create your plan</a>
+							<a class="js-modal-btn" href="#">Create your plan</a>
 						</li>
 					</ul>
 				</nav>
@@ -101,8 +100,6 @@
 				</div>
 			</div>
 			<div class="coffe-choose-wrapper">
-
-
 				<div class="section-coffe-choose">
 					<div class="container">
 						<div class="choose-wrapper">
@@ -114,20 +111,23 @@
 							<div class="choose-blok">
 								<ul class="choose-list">
 									<li class="choose-item">
-										<img src="./images/best-quality.jpg" width: 433; height: 500; alt="">
+										<img src="./images/best-quality.jpg" width="433" height="500"
+											alt="best-quality">
 										<h3>Best quality</h3>
 										<p>Discover an endless variety of the world’s best artisan coffee from each of
 											our
 											roasters.</p>
 									</li>
 									<li class="choose-item">
-										<img src="images/exclusive-benefits.jpg" width: 433; height: 500; alt="">
+										<img src="images/exclusive-benefits.jpg" width="433" height="500"
+											alt="exclusive-benefits">
 										<h3>Exclusive benefits</h3>
 										<p>Special offers and swag when you subscribe, including 30% off your first
 											shipment.</p>
 									</li>
 									<li class="choose-item">
-										<img src="./images/free-shipping.jpg" width:433; height:500; alt="">
+										<img src="./images/free-shipping.jpg" width="433" height="500"
+											alt="free-shipping">
 										<h3>Free shipping</h3>
 										<p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
 										</p>
@@ -181,21 +181,34 @@
 		<div class="container">
 			<div class="footer-blok">
 				<div class="footer-logo">
-					<a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+					<a href="./index.html"><img src="./images/logo.svg" alt="site logo"></a>
 				</div>
 				<ul class="footer-nav">
-					<li class="footer-list"><a class="footer-item" href="#" href="#"> HOME</a></li>
-					<li class="footer-list"><a class="footer-item" href="#" href="#">ABOUT US</a> </li>
-					<li class="footer-list"><a class="footer-item" href="#" href="#">Create your plan</a> </li>
+					<li class="footer-list"><a class="footer-item" href="#"> HOME</a></li>
+					<li class="footer-list"><a class="footer-item" href="#">ABOUT US</a> </li>
+					<li class="footer-list"><a class="footer-item" href="#">Create your plan</a> </li>
 				</ul>
 				<ul class="social">
-					<li	class="socil-item" ><a href="#"><img src="./images/facebook.svg" alt="facebook"></a></li>
-					<li	class="socil-item"><a  href="#"><img src="./images/twitter.svg" alt="twitter"></a></li>
-					<li	class="socil-item"><a href="#"><img src="./images/instagramm.svg" alt="instagramm"></a></li>
+					<li class="socil-item"><a href="#"><img src="./images/facebook.svg" alt="facebook"></a></li>
+					<li class="socil-item"><a href="#"><img src="./images/twitter.svg" alt="twitter"></a></li>
+					<li class="socil-item"><a href="#"><img src="./images/instagramm.svg" alt="instagramm"></a></li>
 				</ul>
 			</div>
 		</div>
+		
 	</footer>
+	<div class="modal-window">
+			<div class="modal">
+				<div class="modal-text">
+					<h2>order Summary</h2>
+				</div>
+				<div class="modal-title">
+					<h3>“I drink my coffee as <span>Filter</span> , with a <span>Decaf</span>  type of bean. <span>250g</span>  ground ala <span>Cafetiére</span> , sent to me <span>Every Week</span>.”</h3>
+					<p>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+				</div>
+				<span class="modal-number">$14.00/ mo</span> <a class="modal-close-btn js-modal-close-btn" href="#">Checkout</a>
+			</div>
+		</div>
+		<script src="./js/main.js"></script>
 </body>
-
 </html>
