@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.create-container{
+    padding: 0;
+}
+.create-section-img {
+    width: 710px;
+    height: 596px;
+}
+
+.create-pick {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pick-box:nth-child(3)::before {
+    display: none;
+}
+
+.section-pick-blok {
+    padding-bottom: 60px;
+}
+
+.create-form {
+    width: 100%;
+    height: 100%;
+    margin: 0 20px 20px 20px;
+    background-image: url("../images/create-form-bg.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+form {
+    margin-left: auto;
+    padding-right: 130px;
+}
+
+.form-wrapper {
+    display: flex;
+}
+
+.sorted-list {
+    padding-top: 33px;
+    list-style: none;
+}
+.sorted-item {
+    padding: 17.5px 0;
+}
+.sorted-link{
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 33px;
+    color: #555555;
+    border-bottom: 3px dashed transparent;
+}
+.sorted-link:hover{
+    color: #000;
+    border-bottom: 3px dashed #C99B67;
+}
+.form-list {
+    list-style: none;
+    padding-top: 50px;
+}
+.form-item {
+    padding: 30px 0;
+}
+.form-item:nth-child(1){
+    padding-top: 0;
+}
+.from-box-wrapper {
+    position: relative;
+    display: flex;
+}
+.form-img::before{
+    content: '';
+    position: absolute;
+    top: 110px;
+    right: -416px;
+    height: 476px;
+    width: 391px;
+    background-image: url("../images/leafr-create1.svg"), url(../images/leaf-create-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: calc(50%);
+}
+.form-img-three::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -881px;
+    height: 401px;
+    width: 299px;
+    background-image: url("../images/leaf-create-left.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form-img-four::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -919px;
+    height: 316px;
+    width: 269px;
+    background-image: url("../images/leaf-craete-left-bottom.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form-summary {
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 47px;
+    list-style: none;
+    color: #000000;
+    cursor: pointer;
+}
+.form-summary::after{
+    content: "";
+    margin: 0 0 11px 45px;
+    width: 18px;
+    height: 10px;
+    display: inline-block;
+    background-image: url("../images/form-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.form-one-label {
+    padding-top: 20px;
+}
+.form-one-label:nth-child(2){
+    padding: 20px 18px 0 18px;
+}
+.input-box {
+    width: 208px;
+    height: 220px;
+    background: #0a775f34;
+    color: #333333;
+}
+.input-one:checked ~ .input-box{
+    background: #0A775F;
+    color: #fff;
+}
+
+.form-one-h {
+    padding: 30px 0 10px 16px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.form-one-p {
+    padding: 0 12px 0 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.form-footer{
+    width: 660px;
+    margin-top: 70px;
+    background: #C99B67;
+}
+.form-footer h3{
+    padding: 40px 0 14px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.form-footer p{
+    padding: 0 21px 43px 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF
+}
+.form-footer span{
+    color: #333333;
+}
+.form-btn{
+    padding: 36px 0 50px 482px;
+}
+.form-btn button{
+    padding: 16px 24px;
+    background: #0A775F;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+.create-footer{
+    margin-top: 50px;
+}
