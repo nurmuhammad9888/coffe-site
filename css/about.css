@@ -7,3 +7,154 @@
     width: 710px;
     height: 596px;
 }
+.main-site{
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/about-bg.png");
+    background-size: contain;
+    background-position: center;
+    background-size: contain;
+}
+.about-img{
+    position: relative;
+}
+.about-img::before{
+    position: absolute;
+    top: 12%;
+    left: -18%;
+    content: "";
+    height: 299px;
+    width: 402px;
+    background-image: url(../images/leaf-top-left.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.our-commitment-title {
+    width: 626px;
+}
+.main-site-title{
+    padding: 160px 40px 216px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-site-title::before{
+    content: "";
+    width: 360px;
+    height: 364px;
+    display: flex;
+    background-image: url("../images/about-coffe.png");
+    background-size: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.our-commitment-title h2{
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.our-commitment-title p{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.quality {
+    margin: 160px 20px 20px 20px;
+    width: 97%;
+    height: 100%;
+    background-image: url("../images/about-orange.jpg");
+    background-size: contain;
+    background-position: center;
+    background-size: contain;
+}
+.quality-title{
+    width: 733px;
+    padding: 100px 0 118px 100px;
+    position: relative;
+}
+.quality-title::before{
+    position: absolute;
+    top: -17%;
+    right: -92%;    
+    content: "";
+    width: 550px;
+    height: 500px;
+    display: flex;
+    background-image: url("../images/about-coffe-img.jpg");
+    background-size: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.quality-title h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.quality-title p{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.section-about-pick{
+    margin-top: 20px;
+}
+.about-pick{
+    padding: 80px 0 80px 0;
+}
+.about-pick-box{
+    position: relative;
+}
+.about-pick-text{
+    padding-top: 140px;
+}
+.about-pick-title{
+    height: 112px;
+    width: 178px;
+}
+.pick-box:nth-child(1):before{
+    position: absolute;
+    top: -81px;
+    right: 20px;
+    content: "";
+    width: 63%;
+    height: 68%;
+    background-image: url(../images/kingdon-map.svg);
+    background-size: 120px 143px;
+    background-position: calc(50% + 50px) calc(50% + 50px);
+    background-repeat: no-repeat;
+}
+.pick-box:nth-child(2):before{
+    position: absolute;
+    top: -81px;
+    right: 20px;
+    content: "";
+    width: 63%;
+    height: 68%;
+    background-image: url(../images/canada-map.svg);
+    background-size: 120px 143px;
+    background-position: calc(50% + 50px) calc(50% + 50px);
+    background-repeat: no-repeat;
+}
+.pick-box:nth-child(3):before{
+    position: absolute;
+    top: -81px;
+    right: 20px;
+    content: "";
+    width: 63%;
+    height: 68%;
+    background-image: url(../images/australya-map.svg);
+    background-size: 120px 143px;
+    background-position: calc(50% + 50px) calc(50% + 50px);
+    background-repeat: no-repeat;
+}
